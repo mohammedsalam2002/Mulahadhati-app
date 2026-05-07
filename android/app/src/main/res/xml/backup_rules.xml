@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- قواعد النسخ الاحتياطي - مطلوبة في AndroidManifest -->
+<!-- نسمح بالنسخ الاحتياطي للإعدادات والملاحظات -->
+<full-backup-content>
+    <include domain="sharedpref" path="."/>
+    <include domain="database" path="."/>
+    <include domain="file" path="."/>
+    <!-- استثناء البيانات الحساسة -->
+    <exclude domain="sharedpref" path="FlutterSecureStorage.xml"/>
+</full-backup-content>

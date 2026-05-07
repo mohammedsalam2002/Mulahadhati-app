@@ -1,0 +1,130 @@
+# ============================================
+# Flutter / Dart / Pub
+# ============================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/lib/generated_plugin_registrant.dart
+pubspec.lock
+
+# ملفات Hive المُولَّدة (يُعاد توليدها بأمر build_runner)
+*.g.dart
+!lib/data/models/note_model.g.dart
+
+# ============================================
+# Android
+# ============================================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Android build
+android/build/
+android/app/build/
+android/.gradle/
+**/build/
+
+# ============================================
+# !!! مهم جداً: ملفات التوقيع والأسرار !!!
+# لا ترفعها أبداً على GitHub
+# ============================================
+android/key.properties
+android/app/key.jks
+android/app/upload-keystore.jks
+android/app/google-services.json
+*.jks
+*.keystore
+*.p12
+*.pem
+key.properties
+
+# ============================================
+# iOS (إن أضفت دعم iOS لاحقاً)
+# ============================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/GoogleService-Info.plist
+
+# ============================================
+# IntelliJ / Android Studio
+# ============================================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ============================================
+# VS Code
+# ============================================
+.vscode/
+.history/
+
+# ============================================
+# أنظمة التشغيل
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# اختبارات وتغطية
+# ============================================
+coverage/
+test/.test_coverage.dart
+
+# ============================================
+# Symbols وملفات التصحيح
+# ============================================
+app.*.symbols
+app.*.map.json
+debug-info/
+
+# ============================================
+# ملفات الإصدار الناتج (يمكن إعادة توليدها)
+# ============================================
+*.aab
+*.apk
+*.ipa
+
+# ============================================
+# نسخ احتياطية مؤقتة
+# ============================================
+*.bak
+*.tmp
+*.swp
+*~
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+
+# ============================================
+# Environment files (إن استخدمت .env)
+# ============================================
+.env
+.env.local
+.env.production
